@@ -15,6 +15,7 @@
 		C4A408BA201EC52700BE0499 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A408B9201EC52700BE0499 /* main.m */; };
 		C4A408C4201EC52700BE0499 /* StackViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A408C3201EC52700BE0499 /* StackViewDemoTests.m */; };
 		C4A408CF201EC52700BE0499 /* StackViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A408CE201EC52700BE0499 /* StackViewDemoUITests.m */; };
+		C4A408DD201EC70500BE0499 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A408DC201EC70500BE0499 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C4A408CA201EC52700BE0499 /* StackViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A408CE201EC52700BE0499 /* StackViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackViewDemoUITests.m; sourceTree = "<group>"; };
 		C4A408D0201EC52700BE0499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A408DC201EC70500BE0499 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C4A408AD201EC52700BE0499 /* ViewController.h */,
 				C4A408AE201EC52700BE0499 /* ViewController.m */,
 				C4A408B0201EC52700BE0499 /* Main.storyboard */,
+				C4A408DC201EC70500BE0499 /* 1.png */,
 				C4A408B3201EC52700BE0499 /* Assets.xcassets */,
 				C4A408B5201EC52700BE0499 /* LaunchScreen.storyboard */,
 				C4A408B8201EC52700BE0499 /* Info.plist */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A408B7201EC52700BE0499 /* LaunchScreen.storyboard in Resources */,
+				C4A408DD201EC70500BE0499 /* 1.png in Resources */,
 				C4A408B4201EC52700BE0499 /* Assets.xcassets in Resources */,
 				C4A408B2201EC52700BE0499 /* Main.storyboard in Resources */,
 			);

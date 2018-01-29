@@ -1,24 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hr3-cT-Cm5"/>
+                        <viewControllerLayoutGuide type="bottom" id="vc8-OQ-PmJ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9Q8-9s-vT4">
+                                <rect key="frame" x="10" y="0.0" width="355" height="150"/>
+                                <subviews>
+                                    <imageView tag="1000" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="WeV-Vc-Kk9">
+                                        <rect key="frame" x="0.0" y="10" width="111.5" height="130"/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView tag="1001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUI-cM-hh3">
+                                        <rect key="frame" x="121.5" y="10" width="112" height="130"/>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="0.56862745100000001" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView tag="1002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="mrK-GR-t0a">
+                                        <rect key="frame" x="243.5" y="10" width="111.5" height="130"/>
+                                        <color key="backgroundColor" red="0.31372549020000001" green="0.59607843140000005" blue="0.92549019610000005" alpha="0.99446168660000001" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zUI-cM-hh3" firstAttribute="width" secondItem="WeV-Vc-Kk9" secondAttribute="width" id="5oS-Fh-54k"/>
+                                    <constraint firstItem="WeV-Vc-Kk9" firstAttribute="leading" secondItem="9Q8-9s-vT4" secondAttribute="leading" id="5vC-ua-W9m"/>
+                                    <constraint firstAttribute="bottom" secondItem="WeV-Vc-Kk9" secondAttribute="bottom" constant="10" id="60T-ea-Lph"/>
+                                    <constraint firstItem="mrK-GR-t0a" firstAttribute="width" secondItem="WeV-Vc-Kk9" secondAttribute="width" id="O8z-zN-omM"/>
+                                    <constraint firstAttribute="height" constant="150" id="ONU-sr-CNM"/>
+                                    <constraint firstAttribute="bottom" secondItem="mrK-GR-t0a" secondAttribute="bottom" constant="10" id="ZCz-fm-0vW"/>
+                                    <constraint firstItem="mrK-GR-t0a" firstAttribute="height" secondItem="WeV-Vc-Kk9" secondAttribute="height" id="eKK-Wk-dkN"/>
+                                    <constraint firstItem="WeV-Vc-Kk9" firstAttribute="top" secondItem="9Q8-9s-vT4" secondAttribute="top" constant="10" id="gEe-ma-Jmy"/>
+                                    <constraint firstItem="mrK-GR-t0a" firstAttribute="top" secondItem="9Q8-9s-vT4" secondAttribute="top" constant="10" id="h0b-V5-Hbc"/>
+                                    <constraint firstItem="zUI-cM-hh3" firstAttribute="height" secondItem="WeV-Vc-Kk9" secondAttribute="height" id="qOg-Zg-oYM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="9Q8-9s-vT4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3EL-U2-XQJ"/>
+                            <constraint firstItem="9Q8-9s-vT4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="L6n-eD-fza"/>
+                            <constraint firstAttribute="trailing" secondItem="9Q8-9s-vT4" secondAttribute="trailing" constant="10" id="fxn-LS-AcL"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="iamgeView1" destination="WeV-Vc-Kk9" id="JFf-Uh-w54"/>
+                        <outlet property="iamgeView2" destination="zUI-cM-hh3" id="Z43-EQ-sYK"/>
+                        <outlet property="iamgeView3" destination="mrK-GR-t0a" id="j1u-mf-9zP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.png" width="522" height="518"/>
+    </resources>
 </document>
